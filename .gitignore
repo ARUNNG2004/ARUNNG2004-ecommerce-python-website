@@ -1,0 +1,43 @@
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.pyo
+
+# Environment variables
+.venv
+
+# Django
+*.log
+*.pot
+*.pyc
+.DS_Store
+db.sqlite3
+db.sqlite3-journal
+media
+/static
+/staticfiles
+local_settings.py
+
+# Django Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+>>>>>>> 415fa66 (initial)
